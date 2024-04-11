@@ -1,0 +1,68 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "cadastroIncorretoEmail",
+    "line": 4,
+    "id": "cadastroincorretoemail",
+    "tags": [],
+    "uri": "cadastro-incorreto-email.feature",
+    "elements": [
+      {
+        "id": "cadastroincorretoemail;validações-cadastro-incorreto-email",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validações Cadastro Incorreto Email",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "undefined",
+              "duration": 410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "acesso login para criar nova conta",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "o campo e-mail não é preenchido",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "clico no botão para criar uma conta",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 10,
+            "name": "é exibida mensagem de preenchimento obrigatório do e-mail",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

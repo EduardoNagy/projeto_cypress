@@ -1,0 +1,86 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "cadastroUsuario",
+    "line": 4,
+    "id": "cadastrousuario",
+    "tags": [],
+    "uri": "cadastro-01.feature",
+    "elements": [
+      {
+        "id": "cadastrousuario;validações-cadastro-usuário",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validações Cadastro Usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "undefined",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "acesso login para criar nova conta",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "preencho com novo e-mail",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "avanço para tela de criação de conta",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "preencho os demais dados de informações pessoais",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "clico no botão de Registro",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "novo usuário é cadastrado no sistema",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

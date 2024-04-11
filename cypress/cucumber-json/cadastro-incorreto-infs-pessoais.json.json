@@ -1,0 +1,86 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "cadastroIncorretoInfsPessoais",
+    "line": 4,
+    "id": "cadastroincorretoinfspessoais",
+    "tags": [],
+    "uri": "cadastro-incorreto-infs-pessoais.feature",
+    "elements": [
+      {
+        "id": "cadastroincorretoinfspessoais;validações-cadastro-incorreto-infs-pessoais",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Validações Cadastro Incorreto Infs Pessoais",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que acesso o portal My Shop",
+            "result": {
+              "status": "undefined",
+              "duration": 384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "acesso login para criar nova conta",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "preencho com novo e-mail",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "avanço para tela de criação de conta",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "não preencho todos os campos obrigatórios de informações pessoais",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 11,
+            "name": "clico no botão de Registro",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 12,
+            "name": "é exibida mensagem de preenchimento obrigatório dos campos",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
