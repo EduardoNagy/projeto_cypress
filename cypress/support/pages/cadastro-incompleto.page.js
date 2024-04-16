@@ -22,6 +22,7 @@ Cypress.Commands.add('preencherParcialCadastro', () => {
     //cy.get(SENHA).type('12345', {log: false})
     cy.get('select[name="days"]').select('1')
     cy.get('select[name="months"]').select('11')
+    cy.wait(4000)
     cy.get('select[name="years"]').select('1990')
     cy.get(CHK_NEWSLETTER).click()
 })

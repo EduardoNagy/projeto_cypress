@@ -15,7 +15,7 @@ var options = {
     metadata: {
       "Test Environment": "STAGING",
       "Browser": "Chrome  86.0.4240.75",
-      "Platform": "Windows 10",
+      "Platform": "Windows 11",
       "Executed": "Local"
     }
   };
