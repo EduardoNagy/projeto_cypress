@@ -1,4 +1,4 @@
-# Primeiro projeto de automação em Cypress com Cucumber
+# Projeto de automação em Cypress com Cucumber
 
 -[x] Node JS - v20.11.1  
 -[x] Cypress - v13.7.2  
